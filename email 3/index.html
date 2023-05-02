@@ -1,0 +1,575 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Finnish Bookstore HTML Email Template</title>
+    <style type="text/css">
+      @import url("https://fonts.googleapis.com/css2?family=Italiana&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap");
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        margin: 0;
+        background-color: #cacaca;
+      }
+      table {
+        border-spacing: 0;
+      }
+      td {
+        padding: 0;
+      }
+      img {
+        border: 1px solid #131313;
+        object-fit: cover;
+      }
+      h1,
+      h2,
+      h3 {
+        font-family: "Italiana", serif;
+        font-weight: 300;
+      }
+      h4,
+      h5,
+      h6,
+      p,
+      span,
+      a,
+      button {
+        font-family: "Inter", sans-serif;
+      }
+      p {
+        font-weight: 300;
+        font-size: 12px;
+      }
+      a {
+        text-decoration: none;
+        color: #131313;
+      }
+      .main {
+        max-width: 600px;
+        background-color: #fff;
+        text-align: center;
+      }
+      .align-left {
+        text-align: left;
+      }
+      .two-column {
+        font-size: 0;
+        text-align: center;
+      }
+      .green {
+        color: #fff;
+        background-color: #01402e;
+      }
+      .two-column .column {
+        width: 100%;
+        display: inline-block;
+        vertical-align: top;
+        padding: 22px 10px;
+      }
+      .two-column .padding {
+        padding: 15px;
+      }
+      .column-1 {
+        max-width: 220px;
+      }
+      .column-2 {
+        max-width: 380px;
+        margin-top: 20px;
+      }
+      .column-3 {
+        max-width: 200px;
+      }
+      .column-4 {
+        max-width: 400px;
+      }
+      .button {
+        font-size: 14px;
+        padding: 8px 17px;
+        color: #fff;
+        background-color: #bf7e04;
+      }
+      .button-2 {
+        font-size: 14px;
+        background-color: #131313;
+        color: #ffffff;
+        padding: 5px 17px;
+      }
+      .three-column {
+        font-size: 0;
+      }
+      .three-column .column {
+        width: 100%;
+        max-width: 200px;
+        display: inline-block;
+        vertical-align: top;
+        padding: 22px 10px;
+      }
+
+      .three-column .padding {
+        padding: 0;
+      }
+      @media screen and (max-width: 599px) {
+        .column-2 {
+          margin-top: 0;
+          width: 100%;
+        }
+        .align-left {
+          text-align: center;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <center class="wrapper">
+      <table class="main" width="100%">
+        <!-- HEADER -->
+        <tr>
+          <td
+            style="background-color: #131313; color: white; padding: 20px 0 5px"
+          >
+            <a href="#"
+              ><img
+                src="./img/Logo.png"
+                alt="Logo Image"
+                width="184"
+                style="margin-bottom: 4px"
+            /></a>
+            <p style="color: #fff; margin-top: 4px">WEEKLY NEWSLETTER</p>
+          </td>
+        </tr>
+        <!-- BOOK OF THE WEEK -->
+        <tr>
+          <td>
+            <table width="100%">
+              <tr>
+                <td class="two-column green">
+                  <table class="column column-1" width="100%">
+                    <tr>
+                      <td class="padding">
+                        <table class="content" width="100%">
+                          <tr>
+                            <td>
+                              <a href="#"
+                                ><img
+                                  src="./img/botw.jpg"
+                                  alt="Pedro Paramo"
+                                  width="186"
+                              /></a>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+
+                  <table class="column column-2" width="100%">
+                    <tr>
+                      <td class="padding">
+                        <table class="content align-left" width="100%">
+                          <tr>
+                            <td>
+                              <p>BOOK OF THE WEEK</p>
+                              <h1 style="font-size: 45px; padding: 5px 0">
+                                PEDRO PARAMO
+                              </h1>
+                              <p style="font-size: 17px; padding-bottom: 22px">
+                                by
+                                <a href="#"
+                                  ><span
+                                    style="
+                                      text-decoration: underline;
+                                      color: #fff;
+                                    "
+                                    >Juan Rulfo</span
+                                  ></a
+                                >
+                              </p>
+                              <p
+                                style="
+                                  font-size: 11px;
+                                  padding-bottom: 25px;
+                                  line-height: 13px;
+                                "
+                              >
+                                Pedro Páramo is a novel written by Mexican
+                                writer Juan Rulfo. The novel tells the story of
+                                Juan Preciado, a man who promises his mother on
+                                her deathbed to meet Preciado's father for the
+                                first time in the town of Comala, only to come
+                                across a literal ghost town. That is, populated
+                                by spectral characters.
+                              </p>
+                              <a href="#" class="button"
+                                >PURCHASE BOOK ($12.99)</a
+                              >
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!-- LATEST ARRIVAL TITLE -->
+        <tr>
+          <td style="padding: 35px 0 10px">
+            <h1 style="font-size: 40px; padding-bottom: 11px">
+              LATEST ARRIVALS
+            </h1>
+            <p>THE LATEST ADDITIONS TO OUR SHELVES</p>
+          </td>
+        </tr>
+
+        <!-- LATEST ARRIVAL BOOKS -->
+        <tr>
+          <td>
+            <table width="100%">
+              <tr>
+                <td class="three-column">
+                  <table class="column" width="100%">
+                    <tr>
+                      <td class="padding">
+                        <table class="content">
+                          <a href="#"
+                            ><img
+                              src="./img/new-1.jpg"
+                              alt="The Practice of Not Thinking"
+                              width="167"
+                          /></a>
+                          <h3 style="font-size: 17px; padding: 10px 0">
+                            The Practice of Not Thinking
+                          </h3>
+                          <a href="#"
+                            ><p style="text-decoration: underline">
+                              RYUNOSUKE KOIKE
+                            </p></a
+                          >
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+
+                  <table class="column" width="100%">
+                    <tr>
+                      <td class="padding">
+                        <table class="content">
+                          <a href="#"
+                            ><img
+                              src="./img/new-2.jpg"
+                              alt="Despair"
+                              width="167"
+                          /></a>
+                          <h3 style="font-size: 17px; padding: 10px 0">
+                            Despair
+                          </h3>
+                          <a href="#"
+                            ><p style="text-decoration: underline">
+                              VLADIMIR NABOKOV
+                            </p></a
+                          >
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+
+                  <table class="column" width="100%">
+                    <tr>
+                      <td class="padding">
+                        <table class="content">
+                          <a href="#"
+                            ><img
+                              src="./img/new-3.jpg"
+                              alt="The Practice of Not Thinking"
+                              width="167"
+                          /></a>
+                          <h3 style="font-size: 17px; padding: 10px 0">
+                            The Ragged Trousered Philantropist
+                          </h3>
+                          <a href="#"
+                            ><p style="text-decoration: underline">
+                              ROBERT TRESSEL
+                            </p></a
+                          >
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!--OUR PODCAST TITLE  -->
+        <tr>
+          <td style="padding: 35px 0 2px">
+            <h1 style="font-size: 40px; padding-bottom: 11px">OUR PODCAST</h1>
+            <p>CHECK OUT OUR LATEST EPISODE</p>
+          </td>
+        </tr>
+        <!-- LATEST PODCAST EPISODE -->
+        <tr>
+          <td>
+            <table width="100%">
+              <tr>
+                <td class="two-column">
+                  <table class="column column-3">
+                    <tr>
+                      <td class="padding">
+                        <table class="content">
+                          <tr>
+                            <td>
+                              <img
+                                src="./img/podcast.jpg"
+                                alt="podcast-thmbnail"
+                                width="167"
+                                height="166"
+                              />
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+
+                  <table class="column column-4">
+                    <tr>
+                      <td class="padding">
+                        <table class="content align-left">
+                          <tr>
+                            <td>
+                              <h3
+                                style="
+                                  font-size: 22px;
+                                  font-family: 'Inter', sans-serif;
+                                  padding-bottom: 7px;
+                                "
+                              >
+                                Early German Romanticism with Elizabeth Greene,
+                                PhD
+                              </h3>
+                              <p style="padding-bottom: 30px">
+                                Dr. Elizabeth Greene is an adjunct professor of
+                                art history at Colombia University. We discuss
+                                her latest book, Early German Romanticism,
+                                published January 3rd, 2023.
+                              </p>
+                              <a href="#" class="button-2">STREAM NOW</a>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!-- UPCOMING EVENTS TITLE -->
+        <tr>
+          <td style="padding: 35px 0 2px">
+            <h1 style="font-size: 40px; padding-bottom: 11px">
+              UPCOMING EVENTS
+            </h1>
+          </td>
+        </tr>
+        <!-- UPCOMING EVENT ONE -->
+        <tr>
+          <td>
+            <table width="100%">
+              <tr>
+                <td class="two-column">
+                  <table class="column column-3">
+                    <tr>
+                      <td class="padding">
+                        <table class="content">
+                          <tr>
+                            <td>
+                              <img
+                                src="./img/event-1.jpg"
+                                alt="Ranya Yusuf"
+                                width="167"
+                                height="166"
+                              />
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+
+                  <table class="column column-4">
+                    <tr>
+                      <td class="padding">
+                        <table class="content align-left">
+                          <tr>
+                            <td>
+                              <h3
+                                style="
+                                  font-size: 22px;
+                                  font-family: 'Inter', sans-serif;
+                                  padding-bottom: 7px;
+                                "
+                              >
+                                Reading Session with Ranya Yusuf
+                              </h3>
+                              <p style="padding-bottom: 30px">
+                                We’re delighted to host poet and author Ranya
+                                Yususf for a reading session on May 24th.
+                                Entrance is free and Ranya will be signing
+                                books. Come to our store on May 24th, 2023, 7:30
+                                P.M.
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <!-- UPCOMING EVENT TWO -->
+        <tr>
+          <td>
+            <table width="100%">
+              <tr>
+                <td class="two-column">
+                  <table class="column column-3">
+                    <tr>
+                      <td class="padding">
+                        <table class="content">
+                          <tr>
+                            <td>
+                              <img
+                                src="./img/event-2.jpg"
+                                alt="Book shelf"
+                                width="167"
+                                height="166"
+                              />
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+
+                  <table class="column column-4">
+                    <tr>
+                      <td class="padding">
+                        <table class="content align-left">
+                          <tr>
+                            <td>
+                              <h3
+                                style="
+                                  font-size: 22px;
+                                  font-family: 'Inter', sans-serif;
+                                  padding-bottom: 7px;
+                                "
+                              >
+                                Summer Sales Discount (Up to 40% off)
+                              </h3>
+                              <p style="padding-bottom: 30px">
+                                All our products will be sold at astonishing
+                                discount starting from June 2, 2023. We’ll also
+                                be having new arrivals, so if you have a list of
+                                books you are yet to purchase, get ready for
+                                June 2.
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <!-- FOOTER -->
+        <tr>
+          <td style="padding: 30px 0; background-color: #131313; color: #fff">
+            <table width="100%">
+              <tr>
+                <td style="color: #fff">
+                  <a href="#"
+                    ><img
+                      src="./img/Logo.png"
+                      alt="Logo"
+                      width="184"
+                      style="padding-bottom: 10px"
+                  /></a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="#"
+                    ><img
+                      src="./img/Facebook.png"
+                      alt="Facebook"
+                      style="margin: 1px"
+                  /></a>
+                  <a href="#"
+                    ><img
+                      src="./img/Instagram.png"
+                      alt="Instagram"
+                      style="margin: 1px"
+                  /></a>
+                  <a href="#"
+                    ><img
+                      src="./img/Twitter.png"
+                      alt="Twitter"
+                      style="margin: 1px"
+                  /></a>
+                  <a href="#"
+                    ><img
+                      src="./img/Pinterest.png"
+                      alt="Pinterest"
+                      style="margin: 1px"
+                  /></a>
+                  <p style="font-size: 15px; padding: 12px 0">
+                    123 Street, Road, Avenue, City, 555555
+                  </p>
+                  <p
+                    style="
+                      font-size: 15px;
+                      padding-top: 12px;
+                      padding-bottom: 22px;
+                    "
+                  >
+                    thefinnishbookstore@shop.com
+                  </p>
+                  <a
+                    href="#"
+                    style="
+                      padding-top: 22px;
+                      color: #fff;
+                      font-size: 17px;
+                      text-decoration: underline;
+                    "
+                    >UNSUBSCRIBE</a
+                  >
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+      <!-- End Main Class -->
+    </center>
+    <!-- End Wrapper -->
+  </body>
+</html>
